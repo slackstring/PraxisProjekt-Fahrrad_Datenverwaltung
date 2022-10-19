@@ -1,0 +1,15 @@
+F:\[programming]\PraxisProjekt_FahrradVerwaltung\PraxisProjekt-FahrradVerwaltung\PraxisProjekt-FahrradVerwaltung\bin\Debug\net6.0\PraxisProjekt-FahrradVerwaltung.exe
+F:\[programming]\PraxisProjekt_FahrradVerwaltung\PraxisProjekt-FahrradVerwaltung\PraxisProjekt-FahrradVerwaltung\bin\Debug\net6.0\PraxisProjekt-FahrradVerwaltung.deps.json
+F:\[programming]\PraxisProjekt_FahrradVerwaltung\PraxisProjekt-FahrradVerwaltung\PraxisProjekt-FahrradVerwaltung\bin\Debug\net6.0\PraxisProjekt-FahrradVerwaltung.runtimeconfig.json
+F:\[programming]\PraxisProjekt_FahrradVerwaltung\PraxisProjekt-FahrradVerwaltung\PraxisProjekt-FahrradVerwaltung\bin\Debug\net6.0\PraxisProjekt-FahrradVerwaltung.dll
+F:\[programming]\PraxisProjekt_FahrradVerwaltung\PraxisProjekt-FahrradVerwaltung\PraxisProjekt-FahrradVerwaltung\bin\Debug\net6.0\PraxisProjekt-FahrradVerwaltung.pdb
+F:\[programming]\PraxisProjekt_FahrradVerwaltung\PraxisProjekt-FahrradVerwaltung\PraxisProjekt-FahrradVerwaltung\obj\Debug\net6.0\PraxisProjekt-FahrradVerwaltung.csproj.AssemblyReference.cache
+F:\[programming]\PraxisProjekt_FahrradVerwaltung\PraxisProjekt-FahrradVerwaltung\PraxisProjekt-FahrradVerwaltung\obj\Debug\net6.0\PraxisProjekt-FahrradVerwaltung.GeneratedMSBuildEditorConfig.editorconfig
+F:\[programming]\PraxisProjekt_FahrradVerwaltung\PraxisProjekt-FahrradVerwaltung\PraxisProjekt-FahrradVerwaltung\obj\Debug\net6.0\PraxisProjekt-FahrradVerwaltung.AssemblyInfoInputs.cache
+F:\[programming]\PraxisProjekt_FahrradVerwaltung\PraxisProjekt-FahrradVerwaltung\PraxisProjekt-FahrradVerwaltung\obj\Debug\net6.0\PraxisProjekt-FahrradVerwaltung.AssemblyInfo.cs
+F:\[programming]\PraxisProjekt_FahrradVerwaltung\PraxisProjekt-FahrradVerwaltung\PraxisProjekt-FahrradVerwaltung\obj\Debug\net6.0\PraxisProjekt-FahrradVerwaltung.csproj.CoreCompileInputs.cache
+F:\[programming]\PraxisProjekt_FahrradVerwaltung\PraxisProjekt-FahrradVerwaltung\PraxisProjekt-FahrradVerwaltung\obj\Debug\net6.0\PraxisProjekt-FahrradVerwaltung.dll
+F:\[programming]\PraxisProjekt_FahrradVerwaltung\PraxisProjekt-FahrradVerwaltung\PraxisProjekt-FahrradVerwaltung\obj\Debug\net6.0\refint\PraxisProjekt-FahrradVerwaltung.dll
+F:\[programming]\PraxisProjekt_FahrradVerwaltung\PraxisProjekt-FahrradVerwaltung\PraxisProjekt-FahrradVerwaltung\obj\Debug\net6.0\PraxisProjekt-FahrradVerwaltung.pdb
+F:\[programming]\PraxisProjekt_FahrradVerwaltung\PraxisProjekt-FahrradVerwaltung\PraxisProjekt-FahrradVerwaltung\obj\Debug\net6.0\PraxisProjekt-FahrradVerwaltung.genruntimeconfig.cache
+F:\[programming]\PraxisProjekt_FahrradVerwaltung\PraxisProjekt-FahrradVerwaltung\PraxisProjekt-FahrradVerwaltung\obj\Debug\net6.0\ref\PraxisProjekt-FahrradVerwaltung.dll
