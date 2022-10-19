@@ -74,16 +74,17 @@ namespace PraxisProjekt_FahrradVerwaltung
 
         static void Check()
         {
+            Console.Clear();
             int i = 1;
             foreach (Bike b in BikeList.bikes)
             {
-                Console.Clear();
                 Console.Write(i);
                 b.OutputOverview();
-                Console.WriteLine("\n");
+                Console.Write("\n");
                 i++;
             }
-            Console.WriteLine("Press any key to go back to main menu");
+
+            Console.WriteLine("\nPress any key to go back to main menu");
             Console.ReadKey();
         }
 
