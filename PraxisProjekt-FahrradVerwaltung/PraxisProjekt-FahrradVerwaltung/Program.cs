@@ -36,12 +36,14 @@ namespace PraxisProjekt_FahrradVerwaltung
                             choice = 0;
                         break;
 
-                    case 2: //Delete();
+                    case 2: Delete();
+                            choice = 0;
                         break;
                     case 3: Check();
-                        choice = 0;
+                            choice = 0;
                         break;
-                    case 4: //Compare();
+                    case 4: Compare();
+                            choice = 0;
                         break;
                     default:
                         break;
@@ -86,6 +88,30 @@ namespace PraxisProjekt_FahrradVerwaltung
 
             Console.WriteLine("\nPress any key to go back to main menu");
             Console.ReadKey();
+        }
+
+        static void Delete()
+        {
+            Console.Clear();
+            Console.WriteLine("Enter ID-NR of the bike frame you want to delete");
+            int delete = Convert.ToInt32(Console.ReadLine());
+            BikeList.bikes.RemoveAt(delete-1);
+
+        }
+
+        static void Compare()
+        {
+            Console.Clear();
+            Console.WriteLine("Put in ID-NR of the first bike frame to compare:");
+            int first = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Put in ID-NR of the second bike frame to compare:");
+            int second = Convert.ToInt32(Console.ReadLine());
+            BikeList.bikes[first - 1].OutputComplete();
+            BikeList.bikes[second - 1].OutputComplete();
+            Console.WriteLine("\nPress any key to go back to main menu");
+            Console.ReadKey();
+
+
         }
 
         public class BikeList

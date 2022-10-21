@@ -30,5 +30,11 @@ namespace PraxisProjekt_FahrradVerwaltung
         {
             Console.Write(" {0} {1}", Manufacturer, Model);
         }
+
+        //Ausgabe Komplett
+        public void OutputComplete()
+        {
+            Console.WriteLine("{0} {1} {2} {3} {4}", Manufacturer, Model,FrameSize, Material, Weight);
+        }
     }
 }
