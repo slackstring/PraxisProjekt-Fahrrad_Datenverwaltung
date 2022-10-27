@@ -72,6 +72,13 @@ namespace PraxisProjekt_FahrradVerwaltung
             Bike newBike = new Bike(manufacturer, model, framesize, material, weight);
             //List<Bike> bikes = new List<Bike>();
             BikeList.bikes.Add(newBike);
+            //PopUp "Daten erfolgreich hinzugefügt" als Event auslösen
+            DataAdded newFrame = new DataAdded();
+            PopUps added = new PopUps();
+            newFrame.BikeAdded += added.BikeAdded;    //Listener abonniert das Event
+            newFrame.BikeIsAdded();                   //Event auslösen
+            Console.WriteLine("\nPress any key to go back to main menu");
+            Console.ReadKey();
         }
 
         static void Check()
@@ -114,11 +121,13 @@ namespace PraxisProjekt_FahrradVerwaltung
 
         }
 
+        //Definition einer globalen Liste damit alle Funktionen darauf zugreifen können
         public class BikeList
         {
             public static List<Bike> bikes = new List<Bike>();
         }
     }
 
- 
+
+    public delegate void PopUpBikeAddedEventHandler();
 }
