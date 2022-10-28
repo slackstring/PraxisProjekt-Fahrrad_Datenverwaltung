@@ -93,8 +93,11 @@ namespace PraxisProjekt_FahrradVerwaltung
                 i++;
             }
 
+
             Console.WriteLine("\nPress any key to go back to main menu");
             Console.ReadKey();
+           
+
         }
 
         static void Delete()
@@ -103,6 +106,13 @@ namespace PraxisProjekt_FahrradVerwaltung
             Console.WriteLine("Enter ID-NR of the bike frame you want to delete");
             int delete = Convert.ToInt32(Console.ReadLine());
             BikeList.bikes.RemoveAt(delete-1);
+            //PopUp "Daten erfolgreich gelöscht" als Event auslösen
+            DataDeleted deleteFrame = new DataDeleted();
+            PopUps deleted = new PopUps();
+            deleteFrame.BikeDeleted += deleted.BikeDeleted;  //Listener abonniert das Event
+            deleteFrame.BikeIsDeleted();
+            Console.WriteLine("\nPress any key to go back to main menu");
+            Console.ReadKey();
 
         }
 
@@ -126,8 +136,10 @@ namespace PraxisProjekt_FahrradVerwaltung
         {
             public static List<Bike> bikes = new List<Bike>();
         }
+
     }
 
-
-    public delegate void PopUpBikeAddedEventHandler();
+    //Definition von Delegaten um Events zu triggern
+    public delegate void PopUpBikeAddedEventHandler();    //PopUp "Daten hinzugefügt"
+    public delegate void PopUpBikeDeletedEventHandler();  //PopUp "Daten gelöscht"
 }

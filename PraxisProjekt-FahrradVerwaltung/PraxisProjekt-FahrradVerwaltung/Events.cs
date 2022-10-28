@@ -18,8 +18,20 @@ namespace PraxisProjekt_FahrradVerwaltung
                 BikeAdded();  //Löst Event aus
             }
         }
-
-        
     }
      
+
+    public class DataDeleted
+    {
+        //Event
+        public event PopUpBikeDeletedEventHandler BikeDeleted;
+        //Methode
+        public void BikeIsDeleted()
+        {
+            if (BikeDeleted != null)
+            {
+                BikeDeleted();  //Löst Event aus
+            }
+        }
+    }
 }

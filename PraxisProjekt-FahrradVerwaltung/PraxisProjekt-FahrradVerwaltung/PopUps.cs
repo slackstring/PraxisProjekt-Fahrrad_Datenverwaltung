@@ -12,5 +12,10 @@ namespace PraxisProjekt_FahrradVerwaltung
         {
             Console.WriteLine("Data has been added succesfully!");
         }
+
+        public void BikeDeleted()
+        {
+            Console.WriteLine("Data has been deleted succesfully!");
+        }
     }
 }
