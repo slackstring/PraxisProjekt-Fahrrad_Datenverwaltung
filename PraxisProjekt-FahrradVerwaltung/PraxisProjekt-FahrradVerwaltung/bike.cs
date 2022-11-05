@@ -9,11 +9,11 @@ namespace PraxisProjekt_FahrradVerwaltung
     public class Bike
     {
         //Eigenschaften
-        private string Manufacturer { get; set; }
-        private string Model { get; set; }
-        private string FrameSize { get; set; }
-        private string Material { get; set; }
-        private double Weight { get; set; }
+        public string Manufacturer { get; set; }
+        public string Model { get; set; }
+        public string FrameSize { get; set; }
+        public string Material { get; set; }
+        public double Weight { get; set; }
         
         //Konstruktor
         public Bike(string manufacturer, string model, string framesize, string material, double weight)
